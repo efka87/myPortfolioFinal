@@ -313,6 +313,15 @@ footer {
         object-fit: cover;
     }
 
+    .gallery-item img {
+        transition: transform 0.4s ease, box-shadow 0.4s ease;
+    }
+
+    .gallery-item:hover img {
+        transform: scale(1.06);
+        box-shadow: 8px 8px 15px #0000005f;
+    }
+
     .my-clients {
         margin-top: 48px;
     }
