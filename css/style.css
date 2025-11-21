@@ -281,9 +281,13 @@ footer {
         margin-top: 10px;
         border-radius: 10px;
     }
-
+    
     .my-works .frame {
         display: none;
+    }    
+    
+    .profile-details button:hover {
+        box-shadow: 4px 4px 4px var(--primary-color-headlines);
     }
 
     hr {
@@ -607,9 +611,10 @@ footer {
     }
 
     .card-image img {
-        width: 216px;
+        width: 316px;
         height: 163px;
     }
+    
 
     .card-text-content {
         text-align: start;
